@@ -5,7 +5,7 @@
 ; Windows_QuickAcces([A_ScriptDir])
 Windows_QuickAcces(L_oPath){
   ; From: #Lib
-  ; Created By Emmanuel d
+  ; Created By Emmanuel d AKA 0xEDApps
   Static S_AddedItems := []
 	L_Shell :=  ComObject("Shell.Application")
   For L_i, L_Path in L_oPath {
